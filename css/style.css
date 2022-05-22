@@ -70,12 +70,14 @@ body {
   margin-left: 3px;
   color: var(--darkGrayishBlue);
 }
+h2 {
+  font-weight: 200;
+}
 .city {
   display: flex;
   justify-content: center;
-  margin: 0.5em auto 1.5em auto;
-  font-weight: 200;
-  font-size: 0.8em;
+  margin: 0.7em auto 2.3em auto;
+  font-size: 0.53em;
   color: var(--darkGrayishBlue);
 }
 .numeros {
@@ -87,6 +89,7 @@ body {
   justify-content: space-around;
   margin-top: auto;
   padding: 0 0.8em;
+  list-style: none;
 }
 .likes {
   display: flex;
@@ -98,6 +101,7 @@ body {
   margin-bottom: auto;
   padding: 0.3em 1em 0.3em 0.3em;
   letter-spacing: 0.2em;
+  list-style: none;
   color: var(--darkGrayishBlue);
 }
 hr {
