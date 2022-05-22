@@ -1,147 +1,145 @@
 /* Frontend Mentor Challenge coded by Toni Machado */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
 }
 :root {
-    /* Primary */
---darkCyan: hsl(185, 75%, 39%);
---veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
---darkGrayishBlue: hsl(227, 10%, 46%);
+  /* Primary */
+  --darkCyan: hsl(185, 75%, 39%);
+  --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+  --darkGrayishBlue: hsl(227, 10%, 46%);
 }
 body {
-    background-color: var(--darkCyan);
-    font-size: 18px;
-    color:rgb(41, 41, 41);
+  background-color: var(--darkCyan);
+  font-size: 18px;
+  color: rgb(41, 41, 41);
 }
 .main {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
-    width: 350px;
-    height: 375px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;    
-    position: relative;
-    margin:auto;
-    margin-bottom: 1em;;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow:1px 1px 20px rgba(74, 74, 74, 0.285);
-
+  width: 350px;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  margin: auto;
+  margin-bottom: 1em;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px rgba(74, 74, 74, 0.285);
 }
 .bubbles {
-    height: 140px;
-    width: 350px;
-    display: flex;
-    flex-wrap: nowrap;
-    background-image: url("../images/bg-pattern-card.svg");
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  height: 140px;
+  width: 350px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-image: url("../images/bg-pattern-card.svg");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .foto {
-    background-image: url("../images/image-victor.jpg");
-    height: 100px;
-    width: 100px;
-    border-radius:50%;
-    border: 4px solid #fff;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: auto;
-    margin-top: -50px;
-
+  background-image: url("../images/image-victor.jpg");
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  margin-top: -50px;
 }
 .name {
-    display: flex;
-    justify-content: center;
-    font-weight: 800;
-
-    
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.66em;
 }
 .edad {
-    font-weight: 200;
-    margin-left: 3px;
-    color: var(--darkGrayishBlue);
+  font-weight: 200;
+  margin-left: 3px;
+  color: var(--darkGrayishBlue);
 }
 .city {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em auto 1.5em auto;
-    font-weight: 200;
-    font-size: 0.8em;
-    color: var(--darkGrayishBlue);
+  display: flex;
+  justify-content: center;
+  margin: 0.5em auto 1.5em auto;
+  font-weight: 200;
+  font-size: 0.8em;
+  color: var(--darkGrayishBlue);
 }
 .numeros {
-    display: flex;
-    font-weight: 800;
-    font-size: 1.1em;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    margin-top: auto;
-    padding: 0 0.8em;
+  display: flex;
+  font-weight: 800;
+  font-size: 1.1em;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: auto;
+  padding: 0 0.8em;
 }
 .likes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    font-weight: 200;
-    font-size: 0.55em;
-    margin-bottom: auto;
-    padding: 0.3em 1em 0.3em 0.3em;
-    letter-spacing: 0.2em;
-    color: var(--darkGrayishBlue);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-weight: 200;
+  font-size: 0.55em;
+  margin-bottom: auto;
+  padding: 0.3em 1em 0.3em 0.3em;
+  letter-spacing: 0.2em;
+  color: var(--darkGrayishBlue);
 }
 hr {
-    border-top: 1px solid rgba(222, 222, 222, 0.717);
+  border-top: 1px solid rgba(222, 222, 222, 0.717);
 }
 
 #fondo1 {
-    background-image: url(../images/bg-pattern-top.svg);
-    background-position: -300px -500px;
-    background-repeat:no-repeat;
-
+  background-image: url(../images/bg-pattern-top.svg);
+  background-position: -300px -500px;
+  background-repeat: no-repeat;
 }
 #fondo2 {
-    background-image: url(../images/bg-pattern-bottom.svg);
-    background-position: 600px 400px;
-    background-repeat:no-repeat;
+  background-image: url(../images/bg-pattern-bottom.svg);
+  background-position: 600px 400px;
+  background-repeat: no-repeat;
 }
-.attribution { 
-    font-size: 0.7em; text-align: center;
+.attribution {
+  font-size: 0.7em;
+  text-align: center;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 a {
-    font-size: 1em;
+  font-size: 1em;
 }
 footer {
-    display: flex;
-    margin: auto;
-    margin-top: 0;
-    align-content: center; 
+  display: flex;
+  margin: auto;
+  margin-top: 0;
+  align-content: center;
 }
 
 @media (max-width: 400px) {
-    .card {
-        width: 325px;
-    }
-    .bubbles {
-        width: 325px;
-    }
-    .attribution { 
-        font-size: 0.55em; text-align: center;
-    }
+  .card {
+    width: 325px;
+  }
+  .bubbles {
+    width: 325px;
+  }
+  .attribution {
+    font-size: 0.57em;
+    text-align: center;
+  }
 }
